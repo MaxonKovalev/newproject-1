@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('font/Gilroy-Light.otf, Gilroy-ExtraBold.otf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 7665px;
+    font-family: 'Gilroy', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    margin-left: 120px;
+    margin-top: 13px;
+    float: left;
+}
+
+#header {
+    width: 100%;
+    height: 134px;
+    background-color: #E3D7F1;
+    position: relative;
+    display: flex;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+
+.header-nav {
+    float: left;
+    margin-left: 198px;
+    line-height: 134px;
+}
+
+.header-nav a+a {
+    margin-left: 102px;
+}
+
+.sosial-net {
+    float: left;
+    margin-top: 47px;
+    margin-left: 196px;
+}
+
+.img-line img + img {
+    margin-left: 35px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.inner-call-to-action {
+    margin-top: 188px;
+    margin-left: 123px;
+    width: 888px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.inner-call-to-action::after {
+    content: '';
+    width: 919px;
+    height: 641.76px;
+    top: -93px;
+    right: -977px;
+    background: url('../img/Group\ 1.png');
+    position: absolute;
+    z-index: 0;
+}
+
+.call-to-action-title {
+    font-size: 55px;
+    line-height: 64.74px;
+    z-index: 1;
+}
+
+.call-to-action-desq {
+    width: 635px;
+    font-size: 25px;
+    line-height: 29.3px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.authorisation {
+    margin-top: 122px;
+}
+
+.btn {
+    width: 263px;
+    height: 69.36px;
+    font-size: 30px;
+    line-height: 35.31px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+    cursor: pointer;
+}
+
+.btn-registration {
+    box-sizing: border-box;
+    background: #A790C6;
+    box-shadow: 0px 3px 10px 0px #B69BDB99;
+    color: #ffffff;
+   
+}
+
+.btn-login {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 3px solid #A790C6;
+    color: #A790C6;
+    margin-left: 20px;
+}
+
+.block1 {
+    position: absolute;
+    width: 100%;
+    height: 127.7px;
+    margin-top: 400px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    z-index: 1;    
+}
+
+.block2 {
+    position: absolute;
+    width: 100%;
+    margin-top: 875px;
+    height: 727.09px;
+    top: 105.66px;
+    background: #EDF2FF;
+    z-index: 0;
+}
+
+.block3 {
+   position: absolute;
+    width: 100%;
+    height: 127.7px;
+    margin-top: 1120px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    z-index: 1;    
+}
+
+.token-percent {
+    margin-top: 150px;
+    width: 685px;
+    height: 130px;
+    margin-left: 120px;
+    font-family: 'Gilroy';
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 65px;
+    text-align: left;
+}
+
+.block-token {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px 0px #D4E0FF;
+    width: 830px;
+    height: 500px;
+    margin-left: 970px;
+    margin-top: -15px;
+    border-radius: 20px;
+}
+
