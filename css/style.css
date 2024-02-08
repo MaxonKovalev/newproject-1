@@ -82,6 +82,7 @@ header {
 }
 
 .call-to-action-desq {
+    margin-top: 28px;
     width: 635px;
     font-size: 25px;
     line-height: 29.3px;
@@ -242,9 +243,50 @@ header {
 }
 
 .steps-img {
+    position: relative;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     height: 144px;
+}
+
+.steps-logo1 {
+    position: absolute;
+    display: flex;
+    width: 80.41px;
+    margin-left: 97px;
+    margin-top: 31px;
+}
+
+.steps-logo2 {
+    position: absolute;
+    display: flex;
+    width: 80.41px;
+    margin-left: 377px;
+    margin-top: 31px;
+}
+
+.steps-logo3 {
+    position: absolute;
+    display: flex;
+    width: 80.41px;
+    margin-left: 652px;
+    margin-top: 31px;
+}
+
+.steps-logo4 {
+    position: absolute;
+    display: flex;
+    width: 80.41px;
+    margin-left: 931px;
+    margin-top: 31px;
+}
+
+.steps-logo5 {
+    position: absolute;
+    display: flex;
+    width: 80.41px;
+    margin-left: 1217.52px;
+    margin-top: 31px;
 }
 
 .steps-number {
@@ -300,3 +342,60 @@ header {
     bottom: 0;
 }
 
+.container-advantages {
+    margin-top: 267.71px;
+    margin-left: 180px;
+    width: 1560.78px;
+    height: 660.5px;
+    position: relative;
+}
+
+.container-advantages h1 {
+    font-family:'Gilroy' sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 114px;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: 202.5px 505px 347.5px 505px;
+    grid-template-rows: 544px 544px 544px 544px;
+}
+
+.sidebar1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content1 {
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-family:'Gilroy' sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #404040;
+    line-height: 29px;
+}
+
+.sidebar2 {
+    margin-left: 145px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content2 {
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-family:'Gilroy' sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #404040;
+    line-height: 29px;
+}
