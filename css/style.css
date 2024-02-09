@@ -9,12 +9,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
 }
 
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Gilroy', sans-serif;
+    
 }
 
 a {
@@ -36,7 +37,6 @@ header {
 }
 
 .header-nav {
-    margin-left: 198px;
     display: flex;
     width: 917px;    
     justify-content: space-between;
@@ -44,7 +44,6 @@ header {
 }
 
 .social-net {
-    margin-left: 196px;
     display: flex;
     width: 263px;
     justify-content: space-between;
@@ -60,7 +59,7 @@ header {
 }
 
 .call-to-action {
-    margin-left: 123px;
+    margin-left: 10%;
 }
 
 .call-to-action-title {
@@ -74,7 +73,7 @@ header {
     line-height: 29.3px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 122px;
+    padding-bottom: 8%;
 }
 
 .authorisation {
@@ -123,14 +122,13 @@ header {
 }
 
 .container-token {
-    height: 727px;
+    height: 50vh;
     display: grid;
     background: #EDF2FF;
     grid-template-columns: 844px 830px;
     align-items: center;
     justify-content: space-evenly;
     justify-items: center;
-    font-family: 'Gilroy' sans-serif;
 }
 
 .token-percent {
@@ -186,12 +184,11 @@ header {
 
 .container-steps {
     margin-top: 80px;
-    font-family:'Gilroy' sans-serif;
     justify-content: center;
     align-items: center;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-bottom: 268px;
+    padding-bottom: 10%;
 }
 
 .steps-name {
@@ -227,8 +224,7 @@ header {
 }
 
 .container-about-us {
-    font-family: 'Gilroy' sans-serif;
-    padding-bottom: 267.71px;
+    padding-bottom: 10%;
 }
 
 .about-us-text {
@@ -240,7 +236,6 @@ header {
 }
 
 .container-about-us h1 {
-    font-weight: 600;
     font-size: 55px;
     display: flex;
     justify-content: center;
@@ -248,13 +243,13 @@ header {
 }
 
 .container-about-us h6 {
-    padding-left: 173px;
+    padding-left: 10%;
     font-size: 40px;
     color: #404040;
 }
 
 .container-about-us p {
-    padding-left: 173px;
+    padding-left: 10%;
     display: flex;
     font-size: 26px;
     color: #404040;
@@ -265,7 +260,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family:'Gilroy' sans-serif;
 }
 
 .container-advantages h1 {
@@ -278,15 +272,13 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 75px 60px;
-    padding: 0 180px;
+    padding: 0 10%;
 }
 
 .content {
     display: flex;
     align-items: center;
-    font-family:'Gilroy' sans-serif;
     font-size: 25px;
-    font-weight: 400;
     color: #404040;
     line-height: 29px;
 }
