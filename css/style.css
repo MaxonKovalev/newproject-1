@@ -25,18 +25,19 @@ a {
 header {
     background-color: #E3D7F1;
     font-size: 25px;
+    margin-bottom: 97px;
 }
 
-.logo {
-    margin-left: 120px;
+.container-header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .header-nav {
     margin-left: 198px;
     display: flex;
-    align-items: center;
     width: 917px;    
     justify-content: space-between;
     flex-wrap: wrap;
@@ -45,53 +46,40 @@ header {
 .social-net {
     margin-left: 196px;
     display: flex;
-    align-items: center;
     width: 263px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.d-flex {
-    display: flex;
+.container-inner {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 60px 60px;
 }
 
-.inner-call-to-action {
-    margin-top: 188px;
+.call-to-action {
     margin-left: 123px;
-    width: 888px;
-    height: 200px;
-    position: relative;
-    z-index: 1;
-}
-
-.inner-call-to-action::after {
-    content: '';
-    width: 919px;
-    height: 641.76px;
-    top: -93px;
-    right: -977px;
-    background: url('../img/Group\ 1.png');
-    position: absolute;
-    z-index: 0;
 }
 
 .call-to-action-title {
     font-size: 55px;
     line-height: 64.74px;
-    z-index: 1;
 }
 
 .call-to-action-desq {
     margin-top: 28px;
-    width: 635px;
     font-size: 25px;
     line-height: 29.3px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 122px;
 }
 
 .authorisation {
-    margin-top: 122px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -109,7 +97,7 @@ header {
     background: #A790C6;
     box-shadow: 0px 3px 10px 0px #B69BDB99;
     color: #ffffff;
-   border: 0;
+    border: 0;
 }
 
 .btn-login {
@@ -134,36 +122,24 @@ header {
     justify-content: space-evenly;
 }
 
-.block1 {
-    position: absolute;
-    width: 100%;
-    height: 127.7px;
-    margin-top: 435px;
-    background: #FFFFFF;
-    border-radius: 60px;
-    z-index: 1;    
-}
-
 .container-token {
-    margin-top: 512.7px;
     height: 727px;
     display: grid;
     background: #EDF2FF;
-    grid-auto-rows: minmax(0, auto);
     grid-template-columns: 844px 830px;
-    grid-column-gap: 126px;
     align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-family: 'Gilroy' sans-serif;
 }
 
 .token-percent {
-    padding-left: 114px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
 
 .token-percent h1 {
-    font-family: 'Gilroy' sans-serif;
     font-size: 55px;
     font-weight: 500;
     padding-bottom: 60px;
@@ -173,7 +149,6 @@ header {
     padding-top: 85px;
     padding-left: 10px;
     font-size: 72px;
-    font-weight: 600;
     background-image: linear-gradient(101.16deg, #245A9A 11.32%, #A790C6 96.67%);
     color: transparent;
     background-clip: text;
@@ -183,16 +158,14 @@ header {
     margin-left: 350px;
     margin-top: -150px;
     font-size: 64px;
-    font-weight: 600;
     background-image: linear-gradient(101.16deg, #245A9A 11.32%, #A790C6 96.67%);
     color: transparent;
     background-clip: text;
 }
 
 .token-info {
-    margin-left: 80px;
-    width: 830px;
-    height: 545px;
+    display: flex;
+    flex-wrap: wrap;
     background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 0px #D4E0FF;
@@ -200,114 +173,73 @@ header {
 }
 
 .token-info h1 {
-    font-family: 'Gilroy' sans-serif;
     font-size: 55px;
     font-weight: 500;
 }
 
 .token-info p {
     width: 636.93px;
-    font-family:'Gilroy' sans-serif;
     color: #404040;
     font-size: 32px;
-    font-weight: 400;
-    line-height: 37px;
     padding: 40px 0;
-}
-
-.block3 {
-    position: absolute;
-    width: 100%;
-    height: 127.7px;
-    margin-top: -50px;
-    background: #FFFFFF;
-    border-radius: 60px;
-    z-index: 1;    
 }
 
 .container-steps {
     margin-top: 80px;
-    margin-left: 273px;
-    height: 266px;
-    width: 1375px;
+    font-family:'Gilroy' sans-serif;
+    justify-content: center;
+    align-items: center;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    padding-bottom: 268px;
 }
 
 .steps-name {
     display: flex;
     justify-content: space-around;
-    font-family:'Gilroy' sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
 
 .steps-img {
+    display: flex;
     position: relative;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: 144px;
 }
 
-.steps-logo1 {
-    position: absolute;
+.steps-logo {
     display: flex;
-    width: 80.41px;
-    margin-left: 97px;
-    margin-top: 31px;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.steps-logo2 {
+.steps-logo img:nth-child(n) {
     position: absolute;
-    display: flex;
-    width: 80.41px;
-    margin-left: 377px;
-    margin-top: 31px;
-}
-
-.steps-logo3 {
-    position: absolute;
-    display: flex;
-    width: 80.41px;
-    margin-left: 652px;
-    margin-top: 31px;
-}
-
-.steps-logo4 {
-    position: absolute;
-    display: flex;
-    width: 80.41px;
-    margin-left: 931px;
-    margin-top: 31px;
-}
-
-.steps-logo5 {
-    position: absolute;
-    display: flex;
-    width: 80.41px;
-    margin-left: 1217.52px;
-    margin-top: 31px;
+    padding-right: 97px;
 }
 
 .steps-number {
     display: flex;
     align-items: end;
     justify-content: space-around;
-    font-family:'Gilroy' sans-serif;
     font-weight: 600;
     font-size: 36px;
 }
 
 .container-about-us {
-    height: 487.29px;
-    width: 1573.91px;
-    margin-left: 173px;
-    margin-top: 268px;
-    position: relative;
+    font-family: 'Gilroy' sans-serif;
+    padding-bottom: 267.71px;
+}
+
+.about-us-text {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .container-about-us h1 {
-    font-family:'Gilroy' sans-serif;
     font-weight: 600;
     font-size: 55px;
     display: flex;
@@ -316,65 +248,42 @@ header {
 }
 
 .container-about-us h6 {
-    width: 970.91px;
-    height: 96px;
-    font-family:'Gilroy' sans-serif;
-    font-weight: 600;
+    padding-left: 173px;
     font-size: 40px;
     color: #404040;
-    line-height: 47.72px;
 }
 
 .container-about-us p {
-    width: 850px;
-    height: 210px;
-    font-family:'Gilroy' sans-serif;
-    font-weight: 400;
+    padding-left: 173px;
+    display: flex;
     font-size: 26px;
     color: #404040;
-    line-height: 30.16px;
-    padding-top: 24.79px;
-}
-
-.container-about-us img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    padding-top: 25px;
 }
 
 .container-advantages {
-    margin-top: 267.71px;
-    margin-left: 180px;
-    width: 1560.78px;
-    height: 660.5px;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'Gilroy' sans-serif;
 }
 
 .container-advantages h1 {
-    font-family:'Gilroy' sans-serif;
-    font-weight: 600;
     font-size: 55px;
-    display: flex;
-    justify-content: center;
     padding-bottom: 114px;
 }
 
 .advantages {
     display: grid;
-    grid-template-columns: 202.5px 505px 347.5px 505px;
-    grid-template-rows: 544px 544px 544px 544px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 75px 60px;
+    padding: 0 180px;
 }
 
-.sidebar1 {
+.content {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.content1 {
-    margin-left: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
+    align-items: center;
     font-family:'Gilroy' sans-serif;
     font-size: 25px;
     font-weight: 400;
@@ -382,20 +291,6 @@ header {
     line-height: 29px;
 }
 
-.sidebar2 {
-    margin-left: 145px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.content2 {
+.content p {
     margin-left: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    font-family:'Gilroy' sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    color: #404040;
-    line-height: 29px;
 }
