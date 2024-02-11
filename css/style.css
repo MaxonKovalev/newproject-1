@@ -484,6 +484,7 @@ header {
 
     .social-net {
         width: 150px;
+        padding: 10px 10px;
     }
 
     .social-net img {
@@ -523,6 +524,7 @@ header {
     .token-percent h1{
         font-size: 14px;
         font-weight: bold;
+        padding-bottom: 30px;
     }
 
     .token-info {
