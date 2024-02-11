@@ -311,7 +311,7 @@ header {
 
 @media screen and (max-width: 1680px) {
     .container-token {
-        height: 40vh;
+        height: 60vh;
         display: flex;
         flex-wrap: wrap;
     }
