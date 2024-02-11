@@ -28,6 +28,10 @@ header {
     margin-bottom: 97px;
 }
 
+footer {
+    background-color: #E3D7F1;
+}
+
 
 .container-header {
     display: flex;
@@ -292,6 +296,20 @@ header {
     margin-left: 60px;
 }
 
+.container-conclusion {
+    margin: 10% 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+
 @media screen and (max-width: 2560px) {
     .container-inner img {
         max-width: 90%;
@@ -306,6 +324,10 @@ header {
 
     .token-info p {
         font-size: 24px;
+    }
+
+    .container-conclusion {
+        width: 90%;
     }
 }
 
@@ -413,6 +435,10 @@ header {
     .content img {
         width: 150px;
     }
+
+    .container-conclusion img {
+        width: 800px;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -459,12 +485,20 @@ header {
             width: 150px;
             height: 150px;
     }
+
+    .container-footer p {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1240px) {
     .advantages {
         display: flex;
         flex-direction: column;
+    }
+
+    .container-conclusion img {
+        width: 500px;
     }
 }
 
@@ -541,6 +575,12 @@ header {
         font-size: 12px;
     }
 
+    .btn {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
     .btn-torg {
         width: 200px;
         height: 50px;
@@ -591,12 +631,24 @@ header {
         padding-bottom: 25px;
     }
 
+    .advantages {
+        grid-gap: 40px 60px;
+    }
+
     .content p {
         margin-left: 20px;
-        font-size: 14px
+        font-size: 14px;
     }
 
     .content img {
         width: 100px;
+    }
+
+    .container-conclusion img {
+        width: 360px;
+    }
+
+    .container-footer p {
+        font-size: 14px;
     }
 }
