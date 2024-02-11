@@ -25,15 +25,20 @@ a {
 
 header {
     background-color: #E3D7F1;
-    font-size: 25px;
     margin-bottom: 97px;
 }
+
 
 .container-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.logo {
+    margin: 15px;
+    width: 90px;
 }
 
 .header-nav {
@@ -64,7 +69,6 @@ header {
 
 .call-to-action-title {
     font-size: 55px;
-    line-height: 64.74px;
 }
 
 .call-to-action-desq {
@@ -188,7 +192,7 @@ header {
     align-items: center;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .steps-name {
@@ -285,4 +289,311 @@ header {
 
 .content p {
     margin-left: 60px;
+}
+
+@media screen and (max-width: 2560px) {
+    .container-inner img {
+        max-width: 90%;
+    } 
+}
+
+@media screen and (max-width: 1980px) {
+    .container-token {
+        height: 60vh;
+            grid-template-columns: 730px 714px;
+    }
+
+    .token-info p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .container-token {
+        height: 40vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .token-percent {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .token-percent h1 {
+        font-size: 30px;
+    }
+
+    .token-percent h2 {
+        font-size: 30px;
+        padding-top: 10px;
+        margin-top: -80px;
+        margin-left: 150px;
+    }
+
+    .token-percent p {
+        font-size: 30px;
+        margin: 0px 130px;
+    }
+
+    .token-percent img {
+        width: 30%;
+    }
+
+    .token-info{
+        flex-direction: column;
+    }
+
+    .token-info h1 {
+        font-size: 24px;
+    }
+
+    .token-info p {
+        width: 500px;
+        font-size: 18px;
+    }
+
+    .container-steps {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
+    .steps-img {
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+    }
+
+
+    .steps-logo img:nth-child(n) {
+    padding-bottom: 150px;
+    }
+
+    .steps-name {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .steps-number {
+        flex-wrap: wrap;
+        flex-direction: column; 
+    }
+
+    .container-about-us {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-about-us h1{
+        font-size: 30px;
+        padding-bottom: 30px ;
+    }
+    .about-us-text h6 {
+        font-size: 24px;
+    }
+    .about-us-text p {
+        font-size: 18px;
+    }
+    .about-us-text img {
+        width: 90%;
+    }
+
+    .container-advantages h1{
+        font-size: 32px;
+        padding-bottom: 55px;
+    }
+    .content p{
+        font-size: 18px;
+    }
+    .content img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .header-nav {
+        width: 600px;
+        font-size: 18px;
+    }
+
+    .call-to-action-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .call-to-action-desq {
+        font-size: 18px;
+    }
+
+    .authorisation {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .btn {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .btn-registration {
+        margin-bottom: 10px;
+    }
+
+    .steps-number {
+        font-size: 24px;
+    }
+
+    .steps-img img {
+        width: 80%;
+    }
+    .steps-logo img:nth-child(n) {
+            padding-bottom: 110px;
+            padding-left: 25px;
+            width: 150px;
+            height: 150px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .advantages {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 430px) and (max-width: 932px) {
+    header {
+        margin-bottom: 20px;
+    }
+    .logo {
+        margin: 10px 5px;
+        width: 40px;
+    }
+
+    .header-nav {
+        width: 370px;
+        font-size: 14px;
+    }
+
+    .social-net {
+        width: 150px;
+    }
+
+    .social-net img {
+        width: 25px;
+    }
+
+    .call-to-action-title {
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+    .call-to-action-desq {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .container-token {
+        height: 60vh;
+    }
+
+    .token-percent img {
+        width: 20%;
+    }
+
+    .token-percent h2 {
+        font-size: 14px;
+        margin-top: -60px;
+        margin-left: 60px;
+    }
+
+    .token-percent p {
+        font-size: 14px;
+        margin: 0px 65px;
+    }
+
+
+    .token-percent h1{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .token-info {
+        padding: 25px;
+    }
+
+    .token-info h1 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .token-info p {
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .btn-torg {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .btn-torg img {
+        width: 25px;
+    }
+
+    .container-steps {
+        margin-top: 30px;
+    }
+
+    .steps-name {
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: bold;
+    }
+
+    .steps-number {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .steps-img img {
+        display: none;
+    }
+
+    .container-about-us h1 {
+        font-size: 16px;
+    }
+
+    .container-about-us h6 {
+        font-size: 14px;
+    }
+
+    .container-about-us p {
+        font-size: 14px;
+    }
+
+    .about-us-text {
+        align-items: end;
+    }
+
+    .container-advantages h1 {
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+
+    .content p {
+        margin-left: 20px;
+        font-size: 14px
+    }
+
+    .content img {
+        width: 100px;
+    }
 }
