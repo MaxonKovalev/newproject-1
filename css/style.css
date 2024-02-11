@@ -32,7 +32,6 @@ footer {
     background-color: #E3D7F1;
 }
 
-
 .container-header {
     display: flex;
     flex-wrap: wrap;
@@ -193,11 +192,16 @@ footer {
 
 .container-steps {
     margin-top: 80px;
-    justify-content: center;
-    align-items: center;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
     padding-bottom: 5%;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .steps-name {
@@ -210,6 +214,7 @@ footer {
 .steps-img {
     display: flex;
     position: relative;
+    padding: 5% 0;
 }
 
 .steps-logo {
@@ -378,33 +383,25 @@ footer {
     }
 
     .container-steps {
-        display: flex;
-        flex-direction: row-reverse;
         align-items: stretch;
         justify-content: space-evenly;
     }
 
-    .steps-img {
-        flex-wrap: wrap;
-        align-content: center;
-        flex-direction: column;
+    .steps-name, .steps-number{
+        font-size: 16px;
     }
 
+    .steps-img img {
+        width: 200px;
+    }
 
+    .steps-logo img {
+        width: 115px;
+    }
     .steps-logo img:nth-child(n) {
-    padding-bottom: 150px;
+    padding-right: 80px;
     }
-
-    .steps-name {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .steps-number {
-        flex-wrap: wrap;
-        flex-direction: column; 
-    }
-
+    
     .container-about-us {
         display: flex;
         flex-wrap: wrap;
@@ -472,18 +469,8 @@ footer {
         margin-bottom: 10px;
     }
 
-    .steps-number {
-        font-size: 24px;
-    }
-
-    .steps-img img {
-        width: 80%;
-    }
-    .steps-logo img:nth-child(n) {
-            padding-bottom: 110px;
-            padding-left: 25px;
-            width: 150px;
-            height: 150px;
+    .steps-name, .steps-number {
+        font-size: 14px;
     }
 
     .container-footer p {
@@ -522,7 +509,7 @@ footer {
     }
 
     .social-net img {
-        width: 25px;
+        width: 20px;
     }
 
     .call-to-action-title {
@@ -593,16 +580,26 @@ footer {
 
     .container-steps {
         margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0 10%;
     }
 
     .steps-name {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 32px;
         font-weight: bold;
     }
 
     .steps-number {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
     }
 
@@ -645,7 +642,7 @@ footer {
     }
 
     .container-conclusion img {
-        width: 360px;
+        width: 300px;
     }
 
     .container-footer p {
